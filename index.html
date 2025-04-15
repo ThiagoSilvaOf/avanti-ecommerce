@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>Avanti</title>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="topo-fixo">
+      <div class="header-info">
+        <p>Ganhe <span class="price">R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom
+          <span class="cupom-name">DESCONTO10</span>
+        </p>
+      </div>
+      <div class="header-content">
+        <img class="menu-mobile" src="./img/menu.svg" alt="menu-mobile">
+        <a href="/"><img class="logo" src="./img/avantiLogo.png" alt="logo"></a>
+
+        <form class="search-field" id="searchForm">
+          <div class="search-field-content">
+            <input type="text" id="searchInput" placeholder="Digite aqui o que você procura" />
+            <span id="searchButton"><img src="./img/search.svg" alt="pesquisar"></span>
+          </div>
+        </form>
+      
+        <div class="user-account">
+          <div class="user-account-content">
+            <img src="./img/user.svg" alt="user">
+            <p>Olá, <br /> Nome, cliente!</p>
+          </div>
+        </div>
+
+        <div class="user-cart">
+          <img src="./img/shopping-cart.svg" alt="carrinho">
+          <p class="cart-count">2</p>
+        </div>
+      </div>
+
+      <div id="searchMessage" class="search-message"></div>
+
+      <nav class="dropdown-wrapper">
+        <div class="departments-container">
+          <span class="all-categories"><img src="./img/menu.svg" alt="menu">
+            <p>Todas as Categorias</p>
+          </span>
+          <p class="trigger-department">Departamento</p>
+          <p>Departamento</p>
+          <p>Departamento</p>
+          <p>Departamento</p>
+          <p>Departamento</p>
+          <p>Departamento</p>
+          <p>Departamento</p>
+          <p>Departamento</p>
+        </div>
+        <div class="dropdown-categorias">
+          <div class="menu-departments">
+            <p class="blue bold">Departamento <span><img src="./img/arrow-blue.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+            <p>Departamento <span><img src="./img/arrow.svg" alt="Ver Mais"></span></p>
+          </div>
+          <div class="menu-categories">
+            <div>
+              <p class="blue bold">Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+            </div>
+            <div>
+              <p class="blue bold">Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+            </div>
+            <div>
+              <p class="blue bold">Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+            </div>
+          </div>
+
+
+          <div class="menu-featured-image">
+            <img src="./img/image-submenu.jpg" alt="Ver Todos">
+          </div>
+        </div>
+
+        <div class="dropdown-department">
+          <div class="department-title">
+            <h2>Departemento</h2>
+          </div>
+
+          <div class="department-categories">
+            <div>
+              <p class="blue bold">Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+            </div>
+            <div>
+              <p class="blue bold">Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+            </div>
+            <div>
+              <p class="blue bold">Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+              <p>Categoria</p>
+            </div>
+          </div>
+
+          <div class="menu-featured-image-department">
+            <img src="./img/image-submenu.jpg" alt="Ver Todos">
+          </div>
+        </div>
+    </div>
+    </nav>
+
+
+    <div class="promo-banner">
+      <img src="./img/banner.jpg" alt="Promoção Especial" class="banner-desktop">
+
+      <div class="swiper mySwiper banner-mobile">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/banner-mobile.jpg" alt="Promoção 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/banner-mobile.jpg" alt="Promoção 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/banner-mobile.jpg" alt="Promoção 3">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="releases">
+    <div class="releases-header">
+      <h2>Lançamentos</h2>
+      <a href="/">Ver mais</a>
+    </div>
+
+    <div class="swiper releases-carousel">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+
+      </div>
+
+      <div class="swiper-button-prev">
+        <img src="./img/arrow-prev.svg" alt="produto anterior">
+      </div>
+      <div class="swiper-button-next">
+        <img src="./img/arrow-next.svg" alt="proximo produto">
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="product-highlight">
+    <div class="product-highlight-image">
+    </div>
+
+    <div class="product-highlight-content">
+      <h2>Lorem Ipsum</h2>
+
+      <p class="text-desktop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue</p>
+
+      <p class="text-desktop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+
+      <p class="text-mobile">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+      <p class="text-mobile">Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.</p>
+    </div>
+  </section>
+
+  <section class="product-features">
+    <div class="product-features-container">
+      <div class="product-features-content">
+        <h2>Lorem Ipsum</h2>
+        <div class="product-info">
+          <img src="./img/icon-detail.png" alt="info">
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        </div>
+        <div class="product-info">
+          <img src="./img/icon-detail.png" alt="info">
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        </div>
+        <div class="product-info">
+          <img src="./img/icon-detail.png" alt="info">
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        </div>
+      </div>
+      <div class="product-features-image">
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="product-highlight">
+    <div class="product-highlight-image">
+    </div>
+
+    <div class="product-highlight-content">
+      <h2>Lorem Ipsum</h2>
+
+      <p class="text-desktop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue</p>
+
+      <p class="text-desktop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+
+      <p class="text-mobile">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+      <p class="text-mobile">Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.</p>
+    </div>
+  </section>
+
+  <section class="releases desktop">
+    <div class="releases-header">
+      <h2>Lançamentos</h2>
+      <a href="/">Ver mais</a>
+    </div>
+
+    <div class="swiper releases-carousel">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+        <div class="swiper-slide product">
+          <img src="./img/product-image.jpg" alt="foto do produto">
+          <span class="new-tag">Novo</span>
+          <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+          <p class="total-price">R$ 100,00</p>
+          <span class="discount-tag">10% OFF</span>
+          <p class="final-price">R$79,90</p>
+          <span class="installment-price">Ou em até <strong>10x de R$ 7,90</strong></span>
+          <button class="btn-buy">Comprar</button>
+        </div>
+
+
+      </div>
+
+      <div class="swiper-button-prev">
+        <img src="./img/arrow-prev.svg" alt="produto anterior">
+      </div>
+      <div class="swiper-button-next">
+        <img src="./img/arrow-next.svg" alt="proximo produto">
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="banner-contact">
+    <img src="./img/contact-banner.png" alt="banner contato">
+    <div class="text-contact">
+      <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+    </div>
+  </section>
+
+  <section class="subscribe-container">
+    <h2>Cadastre-se na nossa <span>newsletter</span></h2>
+    <div class="form-container">
+      <form class="newsletter-form">
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <input type="email" name="email" placeholder="Digite seu e-mail">
+
+        <label class="checkbox-label">
+          <input type="checkbox" required>
+          Estou de acordo com a <span>Política de Privacidade</span>
+        </label>
+
+        <button class="btn-newsletter">Cadastrar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="info-brand">
+          <img src="./img/logo-footer.png" alt="logo Avanti">
+          <img src="./img/brand-footer.png" alt="redes socias">
+        </div>
+
+        <div class="info-details">
+          <h4>Institucional</h4>
+          <h5>Sobre Nós</h5>
+          <h5>Nossas Lojas</h5>
+          <h5>Privacidade e Segurança</h5>
+          <h5>Termos e Condições</h5>
+        </div>
+
+        <div class="info-details">
+          <h4>Central de ajuda</h4>
+          <h5>Fale Conosco</h5>
+          <h5>Frete e Entrega</h5>
+          <h5>Trocas e Devoluções</h5>
+          <h5>Formas de Pagamento</h5>
+          <h5>FAQ</h5>
+        </div>
+
+        <div class="info-details">
+          <h4>Atendimento</h4>
+          <h5> <strong>Telefone:</strong> (00) 1234-5678 </h5>
+          <h5><strong>E-mail:</strong> exemplo@exemplo.com.br</h5>
+          <h5><strong>Horário de atendimento:</strong></h5>
+          <p>Segunda a Sábado: 07h00 às 23h00</p>
+          <p>Domingos e Feriados: 07h00 às 21h00</p>
+        </div>
+      </div>
+
+      <div class="footer-payments">
+        <img src="./img/footer-payments.png" alt="Formas de Pagamento">
+      </div>
+    </div>
+
+    <div class="footer-mobile">
+      <img src="./img/logo-footer.png" alt="logo Avanti">
+      <img src="./img/brand-footer.png" alt="redes socias">
+
+      <div class="accordion-section">
+        <div class="accordion-header">
+          <h5>Institucional</h5>
+          <img src="./img/arrow-mobile-footer.svg" alt="Saiba Mais" class="arrow-icon">
+        </div>
+
+        <div class="accordion-content">
+          <p>Sobre Nós</p>
+          <p>Nossas Lojas</p>
+          <p>Privacidade e Segurança</p>
+          <p>Termos e Condições</p>
+        </div>
+      </div>
+
+      <div class="accordion-section">
+        <div class="accordion-header">
+          <h5>Central de ajuda</h5>
+          <img src="./img/arrow-mobile-footer.svg" alt="Saiba Mais" class="arrow-icon">
+        </div>
+
+        <div class="accordion-content">
+          <p>Fale Conosco</p>
+          <p>Frete e Entrega</p>
+          <p>Trocas e Devoluções</p>
+          <p>Formas de Pagamento</p>
+          <p>FAQ</p>
+        </div>
+      </div>
+
+      <div class="accordion-section">
+        <div class="accordion-header">
+          <h5>Atendimento</h5>
+          <img src="./img/arrow-mobile-footer.svg" alt="Saiba Mais" class="arrow-icon">
+        </div>
+
+        <div class="accordion-content">
+          <p> <strong>Telefone:</strong> (00) 1234-5678 </p>
+          <p><strong>E-mail:</strong> exemplo@exemplo.com.br</p>
+          <p><strong>Horário de atendimento:</strong></p>
+          <p>Segunda a Sábado: 07h00 às 23h00</p>
+          <p>Domingos e Feriados: 07h00 às 21h00</p>
+        </div>
+      </div>
+
+      <img src="./img/footer-payments-mobile.png" alt="Formas de Pagamento" class="payments">
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p class="desktop-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+      <p class="mobile-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+      </p>
+      <img src="./img/logo-partners.svg" alt="Parceiros">
+
+    </div>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>

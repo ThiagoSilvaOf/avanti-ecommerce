@@ -1,0 +1,88 @@
+.header-container {
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-info {
+  background-color: #005cff;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-info p {
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.price {
+  background-color: #6220c1;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.cupom-name {
+  line-height: 1;
+  color: #e5eefd;
+  font-style: italic;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.logo {
+  filter: invert(1);
+  margin-right: 32px;
+  margin-left: 48px;
+}
+
+.header-content {
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  align-items: center;
+  padding: 0 16px;
+}
+
+
+.user-account {
+  display: flex;
+  font-size: 13px;
+  margin-left: 120px;
+}
+
+.user-account-content {
+  display: flex;
+  gap: 6px;
+}
+
+.user-account img {
+  width: 26px;
+}
+
+.user-cart {
+  display: flex;
+  position: relative;
+  margin-right: 40px;
+}
+
+.user-cart img {
+  width: 24px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background-color: #005cff;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+

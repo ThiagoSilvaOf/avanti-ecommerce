@@ -1,0 +1,42 @@
+.banner-contact {
+  position: relative;
+  margin-top: 60px;
+}
+
+.banner-contact img {
+  width: 100%;
+  display: block;
+}
+
+.text-contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #005CFF;
+  padding: 22px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.text-contact p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+@media (max-width: 768px){
+  .banner-contact img{
+    height: 449px;
+    object-fit: cover;
+    object-position: 70%;
+  }
+  .text-contact {
+    padding: 16px;
+  }
+  .text-contact p {
+    font-size: 16px;
+  }
+}

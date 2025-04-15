@@ -1,0 +1,136 @@
+.releases{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;   
+  padding-inline: 24px;
+}
+
+.releases-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+  margin-bottom: 22px;
+}
+
+.releases-header h2{
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.releases-header a{
+  font-weight: 500;
+  font-size: 14px;
+  color:#303030;
+}
+
+.releases-header a:hover{
+  color: #005CFF;
+  text-decoration: underline;
+}
+
+.product{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 208px;
+  border: 1px solid #dfdfdf;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.new-tag{
+  position: absolute;
+  max-width: 40px;
+  padding-block: 4px;
+  padding-inline: 6px;
+  border-radius: 4px;
+  background-color: #00264E;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.product h3{
+  font-size: 16px;
+  font-weight: 400;
+  color: #303030;
+  margin-top: 16px;
+  margin-left: 6px;
+}
+
+.total-price{
+  text-decoration: line-through;
+  margin-top: 4px;
+  margin-left: 8px;
+  font-size: 16px;
+  color: #303030;
+}
+
+.discount-tag{
+  position: absolute;
+  top: 290px;
+  left: 92px;
+  max-width: 62px;
+  padding-block: 2px;
+  padding-inline: 12px;
+  background-color:#5EC0BE;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.final-price{
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.installment-price{
+  margin-top: 4px;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #303030;
+}
+
+.btn-buy{
+  cursor: pointer;
+  padding-block: 10px;
+  background-color: #005CFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-buy:hover{
+  background-color: #014bca;
+}
+
+.swiper-button-prev{
+  left: -1px;
+  padding: 2px;
+}
+
+.swiper-button-next img{
+  position: relative;
+  right: 6px;
+}
+
+.swiper-button-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 20px; 
+}
+
+

@@ -1,0 +1,13 @@
+.promo-banner {
+  width: 100%;
+  margin-top: 130px;
+}
+
+.promo-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-mobile {
+  display: none;
+}

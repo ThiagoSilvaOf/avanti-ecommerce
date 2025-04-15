@@ -1,0 +1,156 @@
+.footer{
+  background-color: #F5F5F5;
+  margin-top: 40px;
+}
+
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.info-brand{
+  margin-top: 64px;
+}
+
+.info-brand img:last-child{
+  margin-top: 40px;
+}
+
+.info-details{
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-details h4{
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.info-details h5{
+  font-size: 14px;
+  font-weight: 400;
+  color: #303030;
+  margin-block: 4px;
+}
+
+.info-details:last-of-type h5:last-of-type {
+  font-size: 12px;
+}
+
+.info-details p{
+  font-size: 12px;
+  margin-block: 4px;
+}
+
+.footer-payments{
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  padding-block: 64px;
+}
+
+.footer-mobile{
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  .footer{
+    display: none;
+  }
+  
+  .footer-mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    margin-top: 40px;
+  }
+
+  .footer-mobile img{
+    align-self: center;
+  }
+
+  .footer-mobile img:first-child{
+    margin-block: 40px;
+  }
+
+  .accordion-section:first-of-type {
+    margin-top: 48px; 
+  }
+  
+  .accordion-section:last-of-type {
+    margin-bottom: 48px; 
+  }
+
+  .accordion-section{
+    border: 1px solid #b1b1b154;
+    padding-block: 12px;
+  }
+
+  .accordion-section h5, p{
+    margin-left: 18px;
+  }
+
+  .accordion-section h5{
+    font-size: 16px;
+    font-weight: 700;
+    padding-block: 12px;
+  }
+
+  .accordion-section p{
+    font-size: 14px;
+    color: #303030;
+    margin-bottom: 6px;
+  }
+
+  .accordion-section:last-of-type p:nth-of-type(3){
+    font-size: 12px;
+  }
+
+  .accordion-section:last-of-type p:nth-of-type(4){
+    font-size: 12px;
+  }
+
+  .accordion-section:last-of-type p:nth-of-type(5){
+    font-size: 12px;
+  }
+
+  .accordion-section img{
+    margin-right: 18px;
+  }
+
+  .accordion-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .arrow-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-section.active .arrow-icon {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-section.active .accordion-content {
+    max-height: 500px;
+  }
+
+  .payments{
+    margin-bottom: 40px;
+  }
+}

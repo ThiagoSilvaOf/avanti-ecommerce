@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+  .swiper {
+    width: 100%;
+    height: auto;
+    position: relative !important;
+  }
+
+  .header-content {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .header-info p {
+    text-align: center;
+    font-weight: bold;
+    padding-inline: 10px;
+    line-height: 1.5;
+  }
+
+  .menu-mobile {
+    display: flex;
+    width: 32px;
+  }
+
+  .search-field {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    margin-block: 16px;
+    order: 1;
+  }
+
+  .search-field-content {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .search-field img {
+    width: 22px;
+  }
+
+  .user-account {
+    margin-left: 0;
+    display: none;
+  }
+  .user-cart{
+    margin-right: 12px;
+  }
+  .user-cart img {
+    width: 32px;
+  }
+
+  .cupom-name {
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+  .logo {
+    width: 130px;
+    margin-top: 8px;
+  }
+
+  .departments-container {
+    display: none;
+  }
+
+  .banner-desktop {
+    display: none;
+  }
+
+  .banner-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .mySwiper {
+    display: block !important;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .releases-header h2{
+    font-size: 16px;
+  }
+
+  .swiper-button-prev, 
+  .swiper-button-next{
+    display: none !important;
+  }
+
+  .product h3{
+    font-size: 14px;
+  }
+
+  .total-price{
+    font-size: 14px;
+  }
+
+  .final-price{
+    font-size: 16px;
+  }
+
+  .installment-price{
+    font-size: 10px;
+  }
+
+  .discount-tag{
+    text-decoration: none;
+    font-size: 10px;
+    top: 248px;
+    left: 86px;
+    padding-inline: 6px;
+  }
+
+  .btn-buy{
+    margin-top: 8px;
+  }
+  .desktop{
+    display: none;
+  }
+}
+
+
+@media (min-width: 376px) and (max-width: 405px) {
+  .discount-tag {
+    top: 236px; 
+    left: 84px; 
+  }
+}
